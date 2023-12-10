@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Printer</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://arastta.org/images/logo/arastta-logo.svg"
+    />
+    <link rel="stylesheet" href="../Css/Footer.css" />
+    <link rel="stylesheet" href="/Css/laptops.css" />
+    <link rel="stylesheet" href="/Css/printer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar ---------------------------------------------->
+   <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="./Home.html">
+          <img
+            src="https://arastta.org/images/logo/arastta-logo.svg"
+            width="50"
+            height="50"
+            alt=""
+        /></a>
+        <a class="navbar-brand" href="./Home.html">E-Buy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menu Bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light p-0 px-3">
+      <a
+        class="navbar-brand"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        role="button"
+        aria-controls="offcanvasExample"
+      >
+        E-All
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./Home.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./Mobile.html"
+              >Mobiles <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Laptops.html">Laptops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Desktop.html">Desktops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Monitor.html">Monitors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Printer.html">Printers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./camera.html">Camera</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.reliancedigital.in/medias/Printer-CLP-Banner-07-02-2022.jpg?context=bWFzdGVyfGltYWdlc3wxMTEwODV8aW1hZ2UvanBlZ3xpbWFnZXMvaGFlL2hmZC85ODU5MjIyNzk4MzY2LmpwZ3xkNmNiYTUxYjk0ZGM0MWM2YjU5NTMzZDRiZDgxYWM5M2I4NmJmOTNkZGYyMDMzYjE5Y2EwNzk0ZWFhNjhhODQx"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.reliancedigital.in/medias/RD-Desktop-Banner-2.png?context=bWFzdGVyfGltYWdlc3wyODQ2MzV8aW1hZ2UvcG5nfGltYWdlcy9oMmQvaGFmLzk4OTUzNjE1MTE0NTQucG5nfGU4MjcxOWFlYmM3NmM2ZjViNmEzZTNlNjRjMzJmYTE5ODEwMDYzNjlkMzZlMjhhMWYzOWE4Y2VlOTJmMDQ5NGE"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.reliancedigital.in/medias/HP-Printers-CLP-Banner-03-02-2023.jpg?context=bWFzdGVyfGltYWdlc3wxMDQ1MTV8aW1hZ2UvanBlZ3xpbWFnZXMvaGU0L2gxZC85OTU4ODMyNDcyMDk0LmpwZ3w1YjgyNzlhNzc5ODUwNzBhOTg3YmZlODg1NWJhYzExOTE4NDQzNTFkOWM3Mzg3NTAzNDM3MzYwM2I3NmU3ZmM5"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Cards -->
+    <h3 class="p-4">Best Deals</h3>
+    <div
+      class="card_container d-flex flex-wrap justify-content-center align-items-center p-3 pb-5 gap-5"
+    >
+      <div class="card py-1" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/41MEanE77SL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">EcoTank L3210</h5>
+          <p class="card-text text-decoration-line-through">₹14,999</p>
+          <p class="card-text">₹12,199</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card py-1" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/51klz5w3beL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Canon PIXMA E477</h5>
+          <p class="card-text text-decoration-line-through">₹6,355</p>
+          <p class="card-text">₹5,599</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card p-0" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/614+ykq-SVL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">HPRT Shipping Label Printer</h5>
+          <p class="card-text text-decoration-line-through">₹13,750</p>
+          <p class="card-text">₹9,990</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61k9QDEcfKL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">LENVII Desktop Thermal Label Printer</h5>
+          <p class="card-text text-decoration-line-through">₹14,880</p>
+          <p class="card-text">₹8,600</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61zgC8AuB3L._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">HPRT Shipping Label Printer</h5>
+          <p class="card-text text-decoration-line-through">₹14,880</p>
+          <p class="card-text">₹8,890</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/41GRWeGK9PL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">PeriPeri PeriPage A6 Mini Thermal Printer</h5>
+          <p class="card-text text-decoration-line-through">₹4,499</p>
+          <p class="card-text">₹3,599</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card p-3" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61D+97Gq6aL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">HP Smart Tank 585</h5>
+          <p class="card-text text-decoration-line-through">₹14,880</p>
+          <p class="card-text">₹12,828</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card p-3" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/711yJipUQVL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Canon PIXMA TS3370s</h5>
+          <p class="card-text text-decoration-line-through">₹6,495</p>
+          <p class="card-text">₹4,999</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61oj0MdwWSL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">HP Smart Tank 580</h5>
+          <p class="card-text text-decoration-line-through">₹18,848</p>
+          <p class="card-text">₹15,999</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61oI-D3eyuL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            SHREYANS 80mm (3 Inch) USB Bluetooth Bill Printer
+          </h5>
+          <p class="card-text text-decoration-line-through">₹4,5008</p>
+          <p class="card-text">₹3,998</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61zgC8AuB3L._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">HPRT Shipping Label Printer</h5>
+          <p class="card-text text-decoration-line-through">₹14,880</p>
+          <p class="card-text">₹8,890</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/41GRWeGK9PL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">PeriPeri PeriPage A6 Mini Thermal Printer</h5>
+          <p class="card-text text-decoration-line-through">₹4,499</p>
+          <p class="card-text">₹3,599</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card p-3" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61D+97Gq6aL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">HP Smart Tank 585</h5>
+          <p class="card-text text-decoration-line-through">₹14,880</p>
+          <p class="card-text">₹12,828</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card p-3" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/711yJipUQVL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Canon PIXMA TS3370s</h5>
+          <p class="card-text text-decoration-line-through">₹6,495</p>
+          <p class="card-text">₹4,999</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61oj0MdwWSL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">HP Smart Tank 580</h5>
+          <p class="card-text text-decoration-line-through">₹18,848</p>
+          <p class="card-text">₹15,999</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61oI-D3eyuL._AC_UY218_.jpg"
+          class="card-img-top card_img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            SHREYANS 80mm (3 Inch) USB Bluetooth Bill Printer
+          </h5>
+          <p class="card-text text-decoration-line-through">₹4,5008</p>
+          <p class="card-text">₹3,998</p>
+          <span><a href="#" class="btn btn-primary">Buy Now</a></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Off Canvas -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+          <img src="/Assets/Profile icon.png" width="35" alt="" /> User Profile
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul>
+          <h5>Account</h5>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">My Account</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Sign-in</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Wishlist</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Track Order</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Log-out</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Report-Fraud</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Customer Service</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Help and FeedBack</a>
+          </li>
+          <li class="canvas_list"><a href="#" class="canvas_link">FAQs</a></li>
+
+          <h5>Trending</h5>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Top sellers</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Best Deals</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">New Release</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fa fa-map-marker"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>West Town City, Manhattan</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30 py-2">
+              <div class="single-cta">
+                <i class="fa fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>+112-8374902345</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30 py-2">
+              <div class="single-cta">
+                <i class="fa fa-envelope"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>e_buy_services@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html" class="logo_text"
+                    ><img
+                      src="https://arastta.org/images/logo/arastta-logo.svg"
+                      width="70"
+                      class="img-fluid"
+                      alt="logo"
+                    />E-buy</a
+                  >
+                </div>
+                <div class="footer-text">
+                  <p>
+                    E-Buy: Your go-to destination for seamless online shopping.
+                    Discover curated products across diverse categories with
+                    convenience and quality in every click.
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#"><i class="fa fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
+                  <a href="#"><i class="fa fa-google-plus google-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30 py-3">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="#" class="link_text">Home</a></li>
+                  <li><a href="#" class="link_text">about</a></li>
+                  <li><a href="#" class="link_text">services</a></li>
+                  <li><a href="#" class="link_text">portfolio</a></li>
+                  <li><a href="#" class="link_text">Contact</a></li>
+                  <li><a href="#" class="link_text">About us</a></li>
+                  <li><a href="#" class="link_text">Our Services</a></li>
+                  <li><a href="#" class="link_text">Expert Team</a></li>
+                  <li><a href="#" class="link_text">Contact us</a></li>
+                  <li><a href="#" class="link_text">Latest News</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>
+                    Don't miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button><i class="fa fa-telegram"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2018, All Right Reserved
+                  <a href="./Home.html">E-Buy</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

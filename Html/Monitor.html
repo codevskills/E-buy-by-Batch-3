@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monitor</title>
+    <link rel="stylesheet" href="../Css/Footer.css" />
+    <link rel="stylesheet" href="../Css/Laptops.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://arastta.org/images/logo/arastta-logo.svg"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./monitor.css/Monitor.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="./Home.html">
+          <img
+            src="https://arastta.org/images/logo/arastta-logo.svg"
+            width="50"
+            height="50"
+            alt=""
+        /></a>
+        <a class="navbar-brand" href="./Home.html">E-Buy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Menu Bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light p-0 px-3">
+      <a
+        class="navbar-brand"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        role="button"
+        aria-controls="offcanvasExample"
+      >
+        E-All
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./Home.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./Mobile.html"
+              >Mobiles <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Laptops.html">Laptops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Desktop.html">Desktops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Monitor.html">Monitors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Printer.html">Printers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./camera.html">Camera</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Carosel-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.asus.com/WebsitesBanner/global/banners/e1e56burpmaclfgh/e1e56burpmaclfgh-0_0_desktop_0_2X.jpg?webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.asus.com/WebsitesBanner/global/banners/clhdl9ofwyjpffwh/clhdl9ofwyjpffwh-0_0_desktop_0_2X.jpg?webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.asus.com/WebsitesBanner/global/banners/xzgqrw94oeffvt7e/xzgqrw94oeffvt7e-0_0_desktop_0_2X.jpg?webp"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Cards -->
+    <div
+      class="monitor_container d-flex flex-wrap justify-content-center align-content-center p-5 gap-5"
+    >
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/71uoFAYvUkL._AC_SR270,180_QL70_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Benq B-Series 60.45 cm (24 inch) 1920 x 1080 Pixels FHD IPS
+            Ultraslim Monitor | 16.7 Million Colors, 75Hz, AMD
+          </h5>
+          <p class="card-text">
+            <b>₹10,999</b> <del>₹29,999 </del> (63% off)<br />
+            Sunday, 17 December<br />
+            FREE Delivery
+          </p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/51dTzrQAXPL._AC_SR270,180_QL70_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Benq S-Series 60.45 cm (26 inch) 1920 x 1080 Pixels FHD IPS
+            Ultraslim Monitor | 16.7 Million Colors, 75Hz, AMD
+          </h5>
+          <p class="card-text">
+            <b>₹15,999</b> <del>₹25,999 </del> (12% off)<br />
+            Sunday, 17 December<br />
+            FREE Delivery
+          </p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/61ipWKyGGHL._AC_SR270,180_QL70_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Benq D-Series 60.45 cm (28 inch) 1920 x 1080 Pixels FHD IPS
+            Ultraslim Monitor | 16.7 Million Colors, 75Hz, AMD
+          </h5>
+          <p class="card-text">
+            <b>₹27,999</b> <del>₹32,999 </del> (18% off)<br />
+            Sunday, 17 December<br />
+            FREE Delivery
+          </p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/71r07rY2wcL._AC_SR270,180_QL70_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            DELL B-Series 60.45 cm (24 inch) 1920 x 1080 Pixels FHD IPS
+            Ultraslim Monitor | 16.7 Million Colors, 75Hz, AMD
+          </h5>
+          <p class="card-text">
+            <b>₹18,999</b> <del>₹20,999 </del> (10% off)<br />
+            Monday, 10 December<br />
+            FREE Delivery
+          </p>
+          <br /><br />
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/41+eBCl0mtL._AC_UY327_FMwebp_QL65_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            DELL Version 60.45 cm (26 inch) 1920 x 1080 Pixels FHD IPS Ultraslim
+            Monitor | 16.7 Million Colors, 75Hz, AMD
+          </h5>
+          <p class="card-text">
+            <b>₹40,999</b> <del>₹60,999 </del> (70% off)<br />
+            Tuesday, 17 December<br />
+            FREE Delivery
+          </p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/712Aqlt14EL._AC_UY327_FMwebp_QL65_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            DELL Version 60.45 cm (28 inch) 1920 x 1080 Pixels FHD IPS Ultraslim
+            Monitor | 16.7 Million Colors, 75Hz, AMD
+          </h5>
+          <p class="card-text">
+            <b>₹50,999</b> <del>₹70,999 </del> (23% off)<br />
+            Tuesday, 20 December<br />
+            FREE Delivery
+          </p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/81wAG1v2h6L._AC_UY327_FMwebp_QL65_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            LENOVO L-Series 60.45 cm (24 inch) 1920 x 1080 Pixels FHD IPS
+            Ultraslim Monitor | 16.7 Million Colors, 75Hz, AMD
+          </h5>
+          <p class="card-text">
+            <b>₹10,999</b> <del>₹29,999 </del> (63% off)<br />
+            Sunday, 17 December<br />
+            FREE Delivery
+          </p>
+          <br /><br /><br />
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/81KcQCMTTfL._AC_UY327_FMwebp_QL65_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            LENOVO L-Series 60.45 cm (28 inch) 1920 x 1080 Pixels FHD IPS
+            Ultraslim Monitor | 16.7 Million Colors, 75Hz, AMD
+          </h5>
+          <p class="card-text">
+            <b>₹30,999</b> <del>₹50,999 </del> (15% off)<br />
+            Sunday, 19 December<br />
+            FREE Delivery
+          </p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/71B+f-oRkZL._AC_UL960_FMwebp_QL65_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            LENOVO L-Series 60.45 cm (28 inch) 1920 x 1080 Pixels FHD IPS
+            Ultraslim Monitor | 16.7 Million Colors, 75Hz, AMD
+          </h5>
+
+          <p class="card-text">
+            <b>₹50,999</b> <del>₹80,999 </del> (28% off)<br />
+            Wednesday, 25 December<br />
+            FREE Delivery
+          </p>
+          <br /><br /><br />
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://m.media-amazon.com/images/I/619DMq39pBS._AC_UY327_FMwebp_QL65_.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            HP 60.45 cm (24 inch) 1920 x 1080 Pixels FHD IPS Ultraslim Monitor |
+            16.7 Million Colors, 75Hz, AMD
+          </h5>
+          <p class="card-text">
+            <b>₹60,999</b> <del>₹90,999 </del> (40% off)<br />
+            Sunday, 26 December<br />
+            FREE Delivery
+          </p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fa fa-map-marker"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>West Town City, Manhattan</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30 py-2">
+              <div class="single-cta">
+                <i class="fa fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>+112-8374902345</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30 py-2">
+              <div class="single-cta">
+                <i class="fa fa-envelope"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>e_buy_services@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html" class="logo_text"
+                    ><img
+                      src="https://arastta.org/images/logo/arastta-logo.svg"
+                      width="70"
+                      class="img-fluid"
+                      alt="logo"
+                    />E-buy</a
+                  >
+                </div>
+                <div class="footer-text">
+                  <p>
+                    E-Buy: Your go-to destination for seamless online shopping.
+                    Discover curated products across diverse categories with
+                    convenience and quality in every click.
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#"><i class="fa fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
+                  <a href="#"><i class="fa fa-google-plus google-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30 py-3">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="#" class="link_text">Home</a></li>
+                  <li><a href="#" class="link_text">about</a></li>
+                  <li><a href="#" class="link_text">services</a></li>
+                  <li><a href="#" class="link_text">portfolio</a></li>
+                  <li><a href="#" class="link_text">Contact</a></li>
+                  <li><a href="#" class="link_text">About us</a></li>
+                  <li><a href="#" class="link_text">Our Services</a></li>
+                  <li><a href="#" class="link_text">Expert Team</a></li>
+                  <li><a href="#" class="link_text">Contact us</a></li>
+                  <li><a href="#" class="link_text">Latest News</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>
+                    Don't miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button><i class="fa fa-telegram"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2018, All Right Reserved
+                  <a href="./Home.html">E-Buy</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Off Canvas -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+          <img src="/Assets/Profile icon.png" width="35" alt="" /> User Profile
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul>
+          <h5>Account</h5>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">My Account</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Sign-in</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Wishlist</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Track Order</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Log-out</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Report-Fraud</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Customer Service</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Help and FeedBack</a>
+          </li>
+          <li class="canvas_list"><a href="#" class="canvas_link">FAQs</a></li>
+
+          <h5>Trending</h5>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Top sellers</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">Best Deals</a>
+          </li>
+          <li class="canvas_list">
+            <a href="#" class="canvas_link">New Release</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

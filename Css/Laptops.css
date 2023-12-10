@@ -1,0 +1,29 @@
+/* footer logo text */
+.logo_text{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.link_text{
+    text-decoration: none;
+}
+/* Hover effect for image */
+.card_img:hover{
+    transform: scale(1.05) translateZ(0);
+    /* transform: scale(1) translateZ(0); */
+    transition: 
+    filter 200ms linear,
+    transform 200ms linear;
+}
+
+/* Off Canvas link */
+.canvas_link {
+    text-decoration: none;
+    color: black;
+}
+
+.canvas_list{
+    list-style-type: none;
+    line-height: 35px;
+}
